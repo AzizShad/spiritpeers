@@ -15,7 +15,7 @@ processes and end all of its tasks. Otherwise it will cache files and prevent re
 in certain instances.
 
 Also, Webpack is trashe a second time because it flops `import` and `export` statements about. In
-order to properly use node-native modules, you have to write 
+order to properly use node-native modules, you have to write:
 
 ```javascript
 const module = window.require('module')
